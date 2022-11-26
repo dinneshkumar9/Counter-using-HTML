@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter-Clicks</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!--heading of the project-->
+    <div class="top">
+        <h1 id="heading">Counter using HTML</h1>
+    </div>
+
+    <!--this shows the number of the count-->
+    <div class="mid">
+        <p id="counterText">Your Current Count is :<p id="counterNumber"> 0</p></p>
+    </div>
+
+    <!--A horizontal line between the buttons and counter-->
+    <hr>
+
+    <!--This is displayed as a warning to the user, if the user tries to decrement below Zero-->
+        <p id="errorText">Error : Cannot go below 0</p>
+
+    <!--Buttons-->    
+    <div class="foot">
+
+    <!--This is a decrement button which helps the user to decrease the count till zero-->
+        <button id="decrement">Decrement</button>
+
+    <!--This is an increment button which helps the user to increase the count-->    
+        <button id="increment">Increment</button>
+
+    <!--This is a clear button which helps the user to reset the count to zero-->
+        <button id="clear">Clear</button>
+        
+    </div>
+
+    <script src="/index.js"></script>
+
+</body>
+</html>

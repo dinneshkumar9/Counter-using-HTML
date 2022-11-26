@@ -1,0 +1,98 @@
+/* html */
+*
+{
+    font-family: sans-serif;
+}
+
+body
+{
+    color: white;
+    background-color: black;
+}
+
+/* Heading */
+
+.top
+{
+    display: flex;
+    margin-left: 20px;
+    font-size: 25px;
+}
+
+#heading
+{
+    font-weight: 400;
+}
+
+/* Counter */
+
+.mid
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+#counterNumber
+{
+    padding-left: 10px;
+}
+
+/* Warning text */
+
+#errorText
+{
+    display: none;
+    margin-left: 20px;
+    font-size: 20px;
+    color: red;
+}
+
+/* horizontal line */
+
+hr
+{
+    width :17%;
+    text-align : left;
+    margin-left : 20px;
+    margin-bottom : 20px;    
+}
+
+/* Buttons */
+
+.foot
+{
+    display: flex;
+    margin-left: 20px;
+    flex-wrap:nowrap; 
+}
+
+
+#increment
+{
+    margin-left: 15px;
+    padding: 15px 50px;
+    font-size: 15px;
+    font-weight: 600;    
+}
+
+
+#decrement
+{
+    padding: 15px 50px;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+#clear
+{ 
+    display: none;
+    border-color: white;
+    background-color: black;
+    color: white;
+    padding: 15px 50px;
+    margin-left: 15px;
+    font-size: 15px;
+    font-weight: 600;
+}
